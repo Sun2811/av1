@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=I-kWsRJc2YZ60E1KFT-gtwR0908hPHSuCRiEkpKiXrzR4hjqRPYQsPuTGY8hm9JJ8-CnKIVxQIRsFL9EkF-2KgINHfcm7qk52SMNEKNak5yiCNtHhxe5pJE_4AnNRaiy0aV1dTXIGaq2wy02cOgboCFiBUoDW-m_GAsCW7yRt--XV_jHmiGF1fLw5ELrbj0Qj_xy0m6jrbJP1FP2G07WknfL-zEY0MDb07EB75f13d4Sqnidw8FVfYSmfA1IbUkCc3uxRqy10_1YBsqZffNBSQ" charset="UTF-8"></script></head>
+<body>
+	<h1>JOGO: The Bulls and Cows!</h1>
+
+  <ul class="menu">
+    <li><a href="index.html" target="_blank">Página Inicial</a></li>
+    <li><a href="http://www.github.com/Sun2811" target="_blank">Github</a></li>
+  </ul>
+
+  <div class="wrapper">
+	<input type="number" max="9999" min="0000" placeholder="e.g. 1234" id="try"
+onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('submit').click()"
+                        /><input type="submit" name="submit" id="submit" onclick="check()">
+	<p>Console</p>
+	<textarea name="console" id="console" cols="60" rows="30">A dinâmica do jogo é a seguinte: você insere o seu código de suposição, o computador compara-o com o código secreto e fornece duas pistas: o número de "touros" e "vacas". O que isso significa? Um touro é um dígito que está presente em ambas as sequências na mesma posição. E uma vaca é um dígito que está presente em ambas as sequências, mas em posições diferentes. Por exemplo, se o código secreto for 2056 e você supor 9516, a resposta será "um touro e uma vaca" (mas você não saberá qual dígito é o touro e qual é a vaca). Isso é tudo!</textarea></div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+</script>
+
+<script src="jogodasenha.js"></script>
+</body>
+    
+</html>

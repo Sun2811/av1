@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(226, 226, 226);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+}
+
+h1 {
+    color: rgb(0, 0, 105);
+    background-color: rgb(201, 201, 252);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.subnick {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 0;
+    background-color: rgb(225, 225, 255);
+    padding: 13px 0;
+}
+
+h2 {
+    color: rgb(0, 0, 125);
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+    border-bottom: 4px solid rgb(0, 0, 125);
+}
+
+h3 {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 18px;
+}
+.descricao {
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu a {
+    background-color: rgb(201, 201, 201);
+    padding: 16px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: rgb(167, 167, 167);
+    scale: 1.06;
+}
+
+.menu a:active {
+    color: rgb(155, 155, 255);
+}
+
+#console{
+    text-align: left;
+}
+
+#try{
+   width: 150px;
+   margin: 2em;
+}
+
+.wrapper{
+   background-color: lightgrey;
+   height: 100%;
+}
